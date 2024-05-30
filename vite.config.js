@@ -7,7 +7,7 @@ export default defineConfig({
   base: "/van-life/",
   build: {
     rollupOptions: {
-      external: ["react-router-dom"],
+      external: ["react-router-dom", "firebase/app"],
     },
   },
 });
